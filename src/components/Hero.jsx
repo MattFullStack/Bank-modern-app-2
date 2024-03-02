@@ -30,7 +30,7 @@ const Hero = () => {
 
        </div>
       {/* Conteneur d'image droite */}
-      <div className="flex-2 flex justify-center ml-10 items-center relative w-1/2 ">
+      <div className="flex-2 flex justify-center ml-4 items-center relative w-1/2 ">
         <img src={bannerdiscount} alt="finance platform" className="max-w-full h-auto" />
       </div>
     </section>

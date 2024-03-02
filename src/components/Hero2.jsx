@@ -5,13 +5,13 @@ const Hero2 = () => {
   return (
     <section id="hero2" className={`flex md:flex-row flex-col items-center ${styles.paddingY} ${styles.paddingX}`}>
       {/* Left side - Image container */}
-      <div className="flex-1 flex justify-center items-center relative pr-8">
+      <div className="flex-1 flex justify-center items-center relative pr-20">
         <img src={Action} alt="finance illustration" className="max-w-full h-auto" />
       </div>
 
       {/* Right side - Text container */}
       <div className={`flex-1 ${styles.flexStart} flex-col justify-center pl-8 md:pl-20`}>
-        <h1 className="text-5xl font-bold leading-tight mb-6">
+        <h1 className={styles.heading2}>
           Get The Financial Control You Deserve
         </h1>
         <p className={`${styles.paragraph} mb-6 pt-2 pb-2`}>
