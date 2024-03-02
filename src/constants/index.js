@@ -1,4 +1,5 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, Feature1, Feature2, Feature3  } from "../assets";
+
 
 export const navLinks = [
   {
@@ -6,42 +7,23 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "About",
+    title: "About",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "Services",
+    title: "Services",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "Crypto",
+    title: "Crypto",
+  },
+  {
+    id: "Contact",
+    title: "Contact",
   },
 ];
 
-export const features = [
-  {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-  },
-  {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
-  },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-];
 
 export const feedback = [
   {
@@ -70,23 +52,52 @@ export const feedback = [
   },
 ];
 
-export const stats = [
+// export const stats = [
+//   {
+//     id: 1,
+//     icon: Feature1,
+//     title: 'Real-Time Tracking',
+//     description: 'Monitor all your finances in real time. From spending patterns to investment growth, stay updated with a single swipe.'
+//   },
+//   {
+//     id: 2,
+//     icon: Feature2,
+//     title: 'Crypto-Friendly',
+//     description: 'Buy, sell, and manage your cryptocurrency alongside traditional currencies. Embrace the future of finance without complexity.'
+//   },
+//   {
+//     id: 3,
+//     icon: Feature3,
+//     title: 'Automated Budgeting',
+//     description: 'Set budgets, track expenses, and get intelligent insights on your financial health with our AI-driven tools.'
+//   },
+// ];
+
+export const features = [
   {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    id: "feature-1",
+    icon: Feature1,
+    title: "Real-Time Tracking",
+    content:
+    'Monitor all your finances in real time. From spending patterns to investment growth, stay updated with a single swipe.',
   },
   {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    id: "feature-2",
+    icon: Feature2,
+    title: "Crypto-Friendly",
+    content:
+    'Buy, sell, and manage your cryptocurrency alongside traditional currencies. Embrace the future of finance without complexity.',
   },
   {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    id: "feature-3",
+    icon: Feature3,
+    title: "Automated Budgeting",
+    content:
+    'Set budgets, track expenses, and get intelligent insights on your financial health with our AI-driven tools.',
   },
 ];
+
+
 
 export const footerLinks = [
   {
@@ -94,23 +105,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "",
       },
     ],
   },
@@ -119,23 +130,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "",
       },
     ],
   },
@@ -144,12 +155,17 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "",
       },
+    ],
+  },
+  {
+    title: "Social Media",
+    links: [
     ],
   },
 ];

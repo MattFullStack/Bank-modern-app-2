@@ -1,24 +1,22 @@
-import { card } from "../assets";
-import styles, { layout } from "../style";
-import Button from "./Button";
+import React from 'react';
+import styles from '../style';
 
 const CardDeal = () => (
-  <section className={layout.section}>
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
-      </p>
-
-      <Button styles={`mt-10`} />
-    </div>
-
-    <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+  <section className={`${styles.flexCenter} flex-col my-12`}>
+    <h2 className={` text-center text-black mt-14 mb-10 ${styles.heading2}`}>
+      Hear From Our Users
+    </h2>
+    <div className=" inter font-normal flex flex-wrap justify-center gap-10">
+      <blockquote className="text-center p-4 sm:w-[300px] md:w-[340px] lg:w-[400px] bg-white ">
+        <p className={`${styles.paragraph}`}>
+          "It's like having a financial advisor in my pocket. I’ve saved so much by just tracking my cryptos and spendings in one place."
+        </p>
+      </blockquote>
+      <blockquote className="text-center p-4 sm:w-[300px] md:w-[340px] lg:w-[400px] bg-white ">
+        <p className={`${styles.paragraph}`}>
+          "Finally, a finance app that speaks my language. Easy crypto trades and super intuitive budgeting tools!"
+        </p>
+      </blockquote>
     </div>
   </section>
 );

@@ -2,11 +2,10 @@ import Navbar from "./Navbar";
 import Billing from "./Billing";
 import CardDeal from "./CardDeal";
 import Business from "./Business";
+import Hero2 from "./Hero2";
 import Clients from "./Clients";
 import CTA from "./CTA";
-import Stats from "./Stats";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 
 export {
@@ -16,8 +15,7 @@ export {
   Business,
   Clients,
   CTA,
-  Stats,
   Footer,
-  Testimonials,
+  Hero2,
   Hero,
 };
