@@ -3,7 +3,7 @@ import { discount, bannerdiscount } from "../assets";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} ${styles.paddingX}`}>
+    <section id="home" className={` flex md:flex-row flex-col  ${styles.paddingY} ${styles.paddingX}`}>
   {/* Conteneur de texte gauche */}
   <div className={`flex-1 ${styles.flexStart} flex-col`}>
         {/* Bouton de réduction */}

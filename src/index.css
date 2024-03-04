@@ -194,6 +194,11 @@
   background-image: linear-gradient(to right, #e0eafc, #cfdef3); /* Adjust the hex codes for lighter blue */
 }
 
+.paddingTop {
+  padding-top: 2rem; /* Ajustez la valeur selon vos besoins */
+}
+
+
 /* Dans votre fichier styles.css */
 @layer components {
   .gradient-background::before {
